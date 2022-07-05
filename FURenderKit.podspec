@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'FURenderKit'
-    s.version          = '8.0.2'
+    s.version          = '8.0.2.1'
     s.summary          = 'A framework of FaceUnity.'
     s.description      = <<-DESC
     a seak and package for sticker object and user do not attention release the sticker. convenient and easy to user FaceUnity function.
