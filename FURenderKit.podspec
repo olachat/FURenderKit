@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
     s.source           = { :path => '.' }
     s.source_files = '**/*.{h,m}'
     s.public_header_files = '**/*.h'
-    s.dependency 'Flutter'
-    s.platform = :ios, '8.0'
+    s.platform = :ios, '9.0'
     s.resources = "**/*.{bundle,txt}"
     s.ios.vendored_frameworks = 'FURenderKit.xcframework'
     s.frameworks = ["OpenGLES",
