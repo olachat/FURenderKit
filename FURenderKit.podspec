@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     s.libraries = ["stdc++"]
 
     # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
-    s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   end
   
